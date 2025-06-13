@@ -1,1 +1,6 @@
 # Design_of_Binary_ASK_modulated_Communications_Systems
+# Türkçe
+Bu projede, Binary ASK modülasyonu ile şifreli veri iletimi gerçekleştirildi. İlk olarak rastgele bir veri ve gizli anahtar üretildi. XOR işlemi ile veri şifrelendi ve taşıyıcı sinyal kullanılarak modüle edildi. Bu modüle sinyal, hem Bob (meşru alıcı) hem de Eve (saldırgan) için gürültülü kanallardan geçirildi. Bob, sinyali çözüp anahtar ile XOR yaparak veriyi geri aldı. Eve’in sinyali bozulduğundan doğru veriye ulaşması zorlaştı. Ayrıca PLS yöntemi ile iletim güvenliği artırıldı ve farklı SNR değerlerinde BER hesaplamaları yapılarak sonuçlar karşılaştırıldı.
+
+# English
+In this project, encrypted data transmission was performed using Binary ASK modulation. A random data sequence and a secret key were generated. The data was encrypted using XOR, then modulated with a carrier signal. The signal was sent through noisy channels to both Bob (legit receiver) and Eve (eavesdropper). Bob demodulated the signal and used XOR with the key to recover the original data. Eve’s signal was distorted, making decoding harder. PLS was also applied to enhance security. BER values were calculated for different SNR levels and results were compared.
